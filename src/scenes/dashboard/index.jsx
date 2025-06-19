@@ -106,6 +106,7 @@ const handleExportToExcel = (type) => {
 };
 
 const Dashboard = () => {
+  // define the theme
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
